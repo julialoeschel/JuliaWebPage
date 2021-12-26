@@ -1,0 +1,21 @@
+{
+  "name": "newpersonalwebpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss-cli@latest build ./src/tailwind.css -o ./public/style.css"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julialoeschel/JuliaWebPage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julialoeschel/JuliaWebPage/issues"
+  },
+  "homepage": "https://github.com/julialoeschel/JuliaWebPage#readme"
+}
