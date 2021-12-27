@@ -1,22 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Julia</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<h1>Julia Löschel</h1>
-<section class ="">
-    <div class="">
-        <h3>Moin, I´m</h3>
-    <h2 class = "text-yellow-700">Julia</h2>
-   
-    
-</div>
-<img src="./../src/images/photo-1544840494-d0e48b117320.jpg" alt="a wave-surf scene">
-</section>
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="grid">
+    <section class="mx-8 relative h-screen">
+      <h1>Julia Löschel</h1>
+      <div
+        class="
+          inline-block
+          rounded-3xl
+          border-2
+          relative
+          border-yellow-600
+          p-8
+          mt-10
+        "
+      >
+        <h3 class="pb-8 pr-8">
+          Moin,<br />
+          I´m
+        </h3>
+        <h2
+          class="
+            text-6xl
+            absolute
+            left-20
+            bottom-4
+            z-50
+            text-yellow-600
+            hover:text-yellow-200
+          "
+        >
+          Julia
+        </h2>
+      </div>
+
+      <img
+        class="absolute rounded-3xl top-32 left-16 w-48"
+        src="./../src/images/photo-1544840494-d0e48b117320.jpg"
+        alt="a wave-surf scene"
+      />
+    </section>
+    <svg
+      class="absolute bottom-1 animate-bounce justify-self-center"
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="rgba(217, 119, 6, 255)"
+    >
+      <path
+        d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"
+      />
+    </svg>
+  </body>
 </html>
