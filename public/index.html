@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Julia</title>
     <link rel="stylesheet" href="style.css" />
+    <script type="module" src="../scripts/index.js" defer></script>
   </head>
   <body class="grid">
     <section class="mx-8 relative h-screen">
@@ -46,17 +47,22 @@
         alt="a wave-surf scene"
       />
     </section>
-    <svg
-      class="absolute bottom-1 animate-bounce justify-self-center"
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="rgba(217, 119, 6, 255)"
+    <div
+      data-js="more-link"
+      class="bg-blue-800 absolute bottom-1 justify-self-center"
     >
-      <path
-        d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"
-      />
-    </svg>
+      <svg
+        class="animate-bounce"
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="rgba(217, 119, 6, 255)"
+      >
+        <path
+          d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"
+        />
+      </svg>
+    </div>
   </body>
 </html>
