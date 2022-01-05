@@ -1,4 +1,4 @@
-const moreArrow = document.querySelector("[data-js=more-link]");
+const moreArrow = document.querySelector("[data-js=cv-link]");
 const cvPage = document.querySelector("[data-js=cv-Page]");
 
 export function toggleMore() {
