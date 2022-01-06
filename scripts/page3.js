@@ -1,5 +1,5 @@
 const moreToArrow = document.querySelector("[data-js=pagelink]");
-const section3 = document.querySelector("[data-js=page4]");
+const section3 = document.querySelector("[data-js=contact]");
 
 export function scrollHobbies() {
   moreToArrow.addEventListener("click", () => {
