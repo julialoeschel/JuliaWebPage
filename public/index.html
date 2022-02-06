@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Julia</title>
     <link rel="stylesheet" href="style.css" />
-    <script type="module" src="../scripts/index.js" defer></script>
+   
   </head>
   <body class="grid">
-    <section class="mx-8 relative h-screen">
+    <section id="top" class="mx-8 relative h-screen">
       <h1>Julia Löschel</h1>
       <div
         class="inline-block rounded-3xl border-2 relative border-yellow-600 p-8 mt-10"
@@ -45,9 +45,16 @@
           />
         </svg>
       </div>
+      <nav>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </nav>
     </section>
 
-    <section data-js="cv-Page" class="mx-8 relative h-400 hidden grid">
+    <section id="CV" data-js="cv-Page" class="mx-8 relative h-400 grid">
       <h2 class="z-50 mt-14 text-center text-2xl absolute ml-5">
         what I have done so far
       </h2>
@@ -79,8 +86,9 @@
     </section>
 
     <section
-      data-js="hobbies-Page"
-      class="hidden relative grid grid-rows-4 mx-8"
+    id="hobbies"  
+    data-js="hobbies-Page"
+      class="relative grid grid-rows-4 mx-8"
     >
       <div>
         <h2 class="z-50 mt-14 ml-24 text-2xl absolute ml-5">what I love</h2>
@@ -146,8 +154,9 @@
     </section>
 
     <section
+    id="contact"
       data-js="contact"
-      class="h-screen relative mx-8 h-screen hidden "
+      class="h-screen relative mx-8 h-screen"
     >
       <div class="h-40 mt-10">
         <h2 class="z-50 mt-14 ml-24 text-2xl absolute ml-5">contact me</h2>
